@@ -1,0 +1,29 @@
+{
+    "Checkout form": "Formulir pembayaran",
+    "Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.": "Di bawah ini adalah contoh formulir yang dibuat seluruhnya dengan kontrol formulir Bootstrap. Setiap grup formulir wajib memiliki status validasi yang dapat dipicu dengan mencoba mengirimkan formulir tanpa melengkapinya.",
+    
+    "Billing address": "Alamat Penagihan :name",
+    "Shipping address is the same as my billing address": "Alamat pengiriman sama dengan alamat penagihan saya",
+    "Save this information for next time": "Simpan informasi ini untuk lain kali",
+    "Payment": "Metode Pembayaran",
+    
+    "Credit card": "Kartu kredit",
+    "Debit card": "Kartu debit",
+    "PayPal": "PayPal",
+    "Name on card": "Nama di kartu",
+    "Credit card number": "Nomor kartu kredit",
+    "Expiration": "kedaluwarsa",
+    "CVV": "CVV",
+    "Continue to checkout": "Lanjutkan ke checkout",
+
+    "Your cart": "Keranjang Anda",
+    "Product name": "Nama Produk",
+    "Brief description": "Deskripsi singkat",
+    "Second product": "Produk kedua",
+    "Third item": "Barang ketiga",
+    "EXAMPLECODE": "KODE CONTOH",
+    "Total (USD)": "Jumlah (IDR)",
+    "Promo code": "Kode Promo",
+    "Redeem": "Terapkan",
+    "$": "IDR"
+}

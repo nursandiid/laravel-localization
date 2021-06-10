@@ -1,0 +1,29 @@
+{
+    "Checkout form": "Checkout form",
+    "Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.": "Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.",
+    
+    "Billing address": "Billing address :name",
+    "Shipping address is the same as my billing address": "Shipping address is the same as my billing address",
+    "Save this information for next time": "Save this information for next time",
+    "Payment": "Payment",
+    
+    "Credit card": "Credit card",
+    "Debit card": "Debit card",
+    "PayPal": "PayPal",
+    "Name on card": "Name on card",
+    "Credit card number": "Credit card number",
+    "Expiration": "Expiration",
+    "CVV": "CVV",
+    "Continue to checkout": "Continue to checkout",
+
+    "Your cart": "Your cart",
+    "Product name": "Product name",
+    "Brief description": "Brief description",
+    "Second product": "Second product",
+    "Third item": "Third item",
+    "EXAMPLECODE": "EXAMPLECODE",
+    "Total (USD)": "Total (USD)",
+    "Promo code": "Promo code",
+    "Redeem": "Redeem",
+    "$": "$"
+}
