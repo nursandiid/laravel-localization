@@ -2,14 +2,20 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Album;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
 
 class MainController extends Controller
 {
-    public function checkout($locale = 'id')
+    public function checkout()
     {
-        app()->setLocale($locale);
+        $langcode = explode('.', parse_url(request()->url(), PHP_URL_HOST))[0];
+        $available_languages = ['id', 'en'];
+
+        if (in_array($langcode, $available_languages)) {
+            app()->setLocale($langcode);
+        }
         
         return view('checkout.index');
     }
@@ -21,8 +27,10 @@ class MainController extends Controller
         return redirect()->back();
     }
 
-    public function album()
+    public function album($locale = 'id')
     {
-        return view('album.index');
+        $album = Album::with('album_translations')->get();
+
+        return view('album.index', compact('album', 'locale'));
     }
 }

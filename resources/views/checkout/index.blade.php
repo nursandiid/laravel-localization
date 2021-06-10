@@ -105,8 +105,10 @@
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                 {{-- <li><a class="dropdown-item" href="{{ url('/switch/id') }}">ID</a></li> --}}
                                 {{-- <li><a class="dropdown-item" href="{{ url('/switch/en') }}">EN</a></li> --}}
-                                <li><a class="dropdown-item" href="{{ url('/checkout') }}">ID</a></li>
-                                <li><a class="dropdown-item" href="{{ url('/en/checkout') }}">EN</a></li>
+                                {{-- <li><a class="dropdown-item" href="{{ url('/checkout') }}">ID</a></li> --}}
+                                {{-- <li><a class="dropdown-item" href="{{ url('/en/checkout') }}">EN</a></li> --}}
+                                <li><a class="dropdown-item" href="{{ str_replace('//en.', '//', url()->current()) }}">ID</a></li>
+                                <li><a class="dropdown-item" href="{{ str_replace('//', '//en.', url()->current()) }}">EN</a></li>
                             </ul>
                         </div>
                     </div>
