@@ -7,11 +7,9 @@ use Illuminate\Support\Facades\Session;
 
 class MainController extends Controller
 {
-    public function checkout()
+    public function checkout($locale = 'id')
     {
-        if ($locale = session('locale')) {
-            app()->setLocale($locale);
-        }
+        app()->setLocale($locale);
         
         return view('checkout.index');
     }
